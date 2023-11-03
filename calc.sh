@@ -29,7 +29,8 @@ mul() {
 }
 
 div() {
-   if [ "$divisor" -eq 0 ]; then
+   if [ "$num2" -eq 0 ]
+   then
   echo "Error: Division by zero is not allowed."
 else
   # Perform the division and print the result
