@@ -1,5 +1,6 @@
 
 #!/bin/bash
+# Define color codes using tput
 SKY_BLUE="\e[96m"
 RED="\e[31m"
 GREEN="\e[32m"
