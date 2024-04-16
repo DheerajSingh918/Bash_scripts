@@ -4,6 +4,7 @@
 #! /bin/bash
 
 read -p "Enter the File/Directory name (using the absolute path)?" file
+echo
 
 if [ -e "$file" ]; then
     if  [ -w "$file" ]; then 
@@ -22,6 +23,6 @@ if [ -e "$file" ]; then
         echo "$file is executable/searchable file."
     fi
 else 
-    echo "$file does not exist"
+    echo "$file does not exist."
     exit 1
 fi
