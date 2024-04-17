@@ -8,6 +8,3 @@ echo "system uptime"
 uptime 
 echo "Last system loged in"
 last -a | head -5
-
-
-
