@@ -71,7 +71,6 @@ cat /etc/ssh/sshd_config
 # Systemd Configuration
 echo "${RED}=== Systemd Configuration ===${RESET}"
 ls -l /etc/systemd/system/
-lsb_release
 
 # SELinux Status
 echo "${RED}=== SELinux Status ===${RESET}"
