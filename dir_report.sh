@@ -38,23 +38,22 @@ Total_Size=$(du -sh "$directory" | cut -f1)
 echo "Total size of the files and directory: $Total_Size"
 
 #Saves the output in a log file named directory_report.log with a timestamp.
-#timestamp=$(date "+%Y-%m-%d-%H-%M-%S")
-log_file="directory_report.log"
-#touch ~/Music/directory_report.log
-#{
- #   echo "[$timestamp] Directory: $target_dir"
-  #  echo "[$timestamp] No. of files: $num_files"
-   # echo "[$timestamp] No. of directories: $num_dirs"
-    #echo "[$timestamp] Total Size: $total_size"
-   # echo "[$timestamp] Report saved to $logfile"
-#} >> "$logfile"
+timestamp=$(date "+%Y-%m-%d-%H-%M-%S")
+log_file="directory_report_$timestamp.log"
+{
+   echo "[$timestamp] Directory: $target_dir"
+   echo "[$timestamp] No. of files: $num_files"
+   echo "[$timestamp] No. of directories: $num_dirs"
+   echo "[$timestamp] Total Size: $total_size"
+   echo "[$timestamp] Report saved to $logfile"
+} >> "$logfile"
 
-#echo"[timestamp] Report save to $log_file"
-
-
-
-echo"[timestamp] Directory : $directory" >> "$log_file"
-echo"[timestamp] No. of files : $num_files" >> "$log_file"
-echo"[timestamp] No. of directory : $num_directory" >> "$log_file"
-echo"[timestamp] Total Size : $total_size" >> "$log_file"
 echo"[timestamp] Report save to $log_file"
+
+
+
+#echo"[timestamp] Directory : $directory" >> "$log_file"
+#echo"[timestamp] No. of files : $num_files" >> "$log_file"
+#echo"[timestamp] No. of directory : $num_directory" >> "$log_file"
+#echo"[timestamp] Total Size : $total_size" >> "$log_file"
+#echo"[timestamp] Report save to $log_file"
