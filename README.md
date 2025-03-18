@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/fbf2b4dc-1a13-49d0-82e1-3645ce13496a)# Bash Script Collection
+# Bash Script Collection
 # Description
 
 This repository contains a collection of Bash scripts for system administration, auditing, backup, and file management tasks. These scripts automate various system tasks, making it easier to manage Linux servers efficiently.
