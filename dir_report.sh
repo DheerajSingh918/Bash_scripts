@@ -4,7 +4,7 @@
 #Counts the number of files and directories inside the given directory.
 #Displays the total size of the directory in a human-readable format.
 #Saves the output in a log file named directory_report.log with a timestamp.
-
+#-----------------------------------------------------------------------------------------------------------------------
 #!/bin/bash
 
 # check  if adirectory path is provided
