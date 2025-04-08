@@ -1,14 +1,9 @@
-Write a Bash script that analyzes a log file (e.g., access.log) and provides a summary with the following details:
-
-Total number of requests
-
-Number of unique IP addresses
-
-Top 5 IP addresses by request count
-
-Number of requests per HTTP status code (e.g., 200, 404, 500)
-
-Top 3 most requested URLs
+#Write a Bash script that analyzes a log file (e.g., access.log) and provides a summary with the following details:
+#Total number of requests
+#Number of unique IP addresses
+#Top 5 IP addresses by request count
+#Number of requests per HTTP status code (e.g., 200, 404, 500)
+#Top 3 most requested URLs
 ---______________--------------__________---------_______------____---____---___---___--____---___---_____
 
 
